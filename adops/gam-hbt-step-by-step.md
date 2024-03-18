@@ -17,7 +17,7 @@ sidebarType: 3
 Publishers new to header bidding can use this guide to set up header bidding trafficking for Prebid in Google Ad Manager. These instructions describe only the specific settings required for header bidding trafficking; they are not intended to be comprehensive instructions that replace or duplicate the GAM documentation.
 
 - If you prefer to use line items to manage your header bidding setup, visit [Line item setup](/adops/step-by-step.html).
-- For how to migrate from line items to header bidding trafficking, visit [Header bidding trafficking](https://support.google.com/admanager/answer/12273163} and the corresponding [FAQ](https://support.google.com/admanager/answer/12270263).
+- For how to migrate from line items to header bidding trafficking, visit [Header bidding trafficking](https://support.google.com/admanager/answer/12273163) and the corresponding [FAQ](https://support.google.com/admanager/answer/12270263).
 
 ## Prerequisites
 
