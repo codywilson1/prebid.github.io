@@ -41,18 +41,27 @@ First, configure prebid to collect bids from your selected bidders and pass thos
 2. Click *Delivery*, then *Bidders*.
 3. Click the *Header bidding* tab.
 4. Click *Get started* to enable Prebid trafficking for the network, if it’s not already enabled.
-<insert screenshot>
+
+![Get Started with Prebid](/assets/images/ad-ops/gam-hbt-sbs/hbt-start.png)
+
 5. Review each detected bidder.
-<insert screenshot>
+
+![Review Bidders](/assets/images/ad-ops/gam-hbt-sbs/hbt-bidders.png)
+
 For each bidder, there are three configuration options:
+
 - *Enable SafeFrame*: When enabled, ads returned by the bidder will render inside of a SafeFrame. Bidders may vary in their compatibility with SafeFrame.
 - *Enable optimized Private Auction deals*: When enabled, bids that include a deal ID will enter the auction at the optimized Private Auction priority. If disabled, such bids will continue to work with any relevant line items in your network.
 - *Allow ads on child-directed requests*: When enabled, the associated bidder’s ads may show on inventory that is classified in Ad Manager as child-directed.
 
 6. Click *Continue*.
 7. Select *Run Prebid on entire network*
-<insert screenshot>
+
+![Run Prebid](/assets/images/ad-ops/gam-hbt-sbs/hbt-run-prebid.png)
+
 8. Click *Finish*. Your Ad Manager UI should look like this, with your own bidders and specified configuration settings listed.
+
+![Finished](/assets/images/ad-ops/gam-hbt-sbs/hbt-setup-finished.png)
 
 ## Header bidding reporting
 
@@ -64,11 +73,4 @@ Historical reporting in Ad Manager helps you understand how header bidding is pe
 
 To exclude the header bidders from the auction:
 - Create an [inventory exclusion protection](https://support.google.com/admanager/answer/9376326).
-- Select the header bidding demand source and appropriate targeting. 
-
-## Further Reading
-
-- [Prebid Ad Ops Planning Guide](/adops/adops-planning-guide.html)
-- [GAM Step by Step Creatives: Banner/Outstream/AMP](/adops/gam-creative-banner-sbs.html)
-- [GAM Step by Step Creatives: Native](/adops/gam-native.html)
-- [GAM Step by Step Creatives: Video](/adops/setting-up-prebid-video-in-dfp.html)
+- Select the header bidding demand source and appropriate targeting.
