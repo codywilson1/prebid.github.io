@@ -14,10 +14,10 @@ sidebarType: 3
 - TOC
 {: toc }
 
-Publishers new to header bidding can use this guide to set up header bidding trafficking for Prebid in Google Ad Manager. These instructions describe only the specific settings required for header bidding trafficking; they are not intended to be comprehensive instructions that replace or duplicate the GAM documentation.
+Publishers new to header bidding can use this guide to set up header bidding trafficking for Prebid in Google Ad Manager. Unlike a line item setup, header bidding trafficking provides publishers with precise bid prices to compete in the auction, no need for shell creatives, unified reporting, and a straightforward workflow. These instructions describe only the specific settings required for header bidding trafficking; they are not intended to be comprehensive instructions that replace or duplicate the GAM documentation.
 
 - If you prefer to use line items to manage your header bidding setup, visit [Line item setup](/adops/step-by-step.html).
-- For how to migrate from line items to header bidding trafficking, visit [Header bidding trafficking](https://support.google.com/admanager/answer/12273163) and the corresponding [FAQ](https://support.google.com/admanager/answer/12270263).
+- For how to migrate from line items to header bidding trafficking, visit [Header bidding trafficking](https://support.google.com/admanager/answer/12273163) and the corresponding [FAQ](https://support.google.com/admanager/answer/12270263).  These instructions also describe how to run an experiment to show potential revenue uplift from migrating to header bidding trafficking from a line item setup. 
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ To use header bidding trafficking, you must:
 - Use a "[standard implementation](https://support.google.com/admanager/answer/12270263?sjid=14160336224257855972-NA#standard&zippy=%2Cwhats-a-standard-implementation-of-the-prebid-wrapper)" of Prebid.js.
 - Use Google Publisher Tag (GPT) on your website.
 
-Note: You don't have to set up any line items, including price priority line items, to use header bidding trafficking
+Note: You don't have to set up any line items, including price priority line items, to use header bidding trafficking.
 
 ### Tagging
 First, configure prebid to collect bids from your selected bidders and pass those bids onto Ad Manager. For details on tagging changes, visit [Getting Started for Developers](/dev-docs/getting-started.html). 
